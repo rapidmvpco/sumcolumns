@@ -27,7 +27,7 @@ Future<double?> functionName(
 In your Supabase functions use this query to filter and sum the columns. 
 
 ```
-REATE
+CREATE
 OR REPLACE FUNCTION public.sqlFunction("p_var1" TEXT, "p_var2" TEXT) RETURNS NUMERIC AS $$
 DECLARE
     total_sum NUMERIC;
